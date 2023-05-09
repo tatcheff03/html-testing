@@ -14,20 +14,21 @@
 .car-row {
     display: flex;
     flex-wrap: flex;
-    justify-content: center;
+    justify-content: auto;
     align-items: center;
-    width: calc(80%);
+    width: calc(100%);
 }
 
 .car-item {
-    width: calc(90%);
-    margin: 10px;
+    width: calc(100%);
+    margin: 5px;
+    margin-top: auto;
     text-align: center;
 }
 
 .car-item img {
-    max-width: auto;
-    margin-top: 100px;
+    max-width: 500;
+    margin-top: 5px;
     height: auto;
     margin-bottom: 5px;
 }
