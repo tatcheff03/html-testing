@@ -16,25 +16,25 @@
     flex-wrap: flex;
     justify-content: center;
     align-items: center;
-    width: calc(100%);
+    width: calc(80%);
 }
 
 .car-item {
-    width: calc(100%);
-    margin: 9px;
+    width: calc(90%);
+    margin: 10px;
     text-align: center;
 }
 
 .car-item img {
-    max-width: 100%;
-    margin-top: 5px;
+    max-width: auto;
+    margin-top: 100px;
     height: auto;
     margin-bottom: 5px;
 }
 
 .car-item h2 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
+    font-size: 2em;
+    margin-bottom: 25px;
 }
 
 .car-item p.price {
