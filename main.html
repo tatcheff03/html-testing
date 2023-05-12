@@ -4,10 +4,12 @@
     <title>Car selling</title>
 </head>
 <body>
+   
     <h2 style="text-align:center"> Angel Auto</h2>
     <p> Here you can find a lot a different cars delivered from all over the world</p>
     
     <div class="car-box">
+         <div id="wrap">
         <div class="car-row">
             <div class="car-item">
                 
@@ -107,7 +109,18 @@
             <button type="button" onclick="alert('You have successfully purchased me!')">Buy Me!</button>
             <br><br>
 
-
+<script type='text/javascript'>
+window.onload=function(){<!-- ww  w  .  j ava  2 s.c  om-->
+    var div = document.querySelector('#wrap'),
+        para = document.querySelectorAll('#wrap p');
+    var paraArr = [].slice.call(para).sort(function (a, b) {
+        return a.textContent > b.textContent ? 1 : -1;
+    });
+    paraArr.forEach(function (p) {
+        div.appendChild(p);
+    });
+}
+</script>
 
 
 </body>
