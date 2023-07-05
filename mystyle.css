@@ -44,3 +44,10 @@
     color: #007bff;
     margin-top: 10px;
 }
+
+div.b {
+    text-align: left;
+  }
+  div.d {
+    text-align: justify;
+  }   
