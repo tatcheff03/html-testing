@@ -109,7 +109,7 @@ aside.related-links a {
     text-decoration: none;
     color: #fff;
 }
-/* Responsive styles */
+
 @media (max-width: 800px) {
     header {
         flex-direction: column;
@@ -190,5 +190,5 @@ footer {
 
 .navigation a {
     text-decoration: none;
-    color: #333; /* Choose an appropriate color for the links */
+    color: #333; 
 }
