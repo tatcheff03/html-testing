@@ -1,0 +1,194 @@
+
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+
+.left-header p {
+    font-size: 14px;
+    margin-bottom:10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.header-content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.search-bar {
+    margin-right: 10px;
+}
+
+main-content {
+    display: flex;
+}
+
+nav.local-navigation {
+    background-color: #555;
+    color: #fff;
+    width: 200px;
+    padding-left: 10px;
+    padding-top: 2px;
+    margin-top: 1px;
+    padding-bottom: 600px;
+}
+
+nav.local-navigation ul {
+    list-style-type: none;
+}
+
+nav.local-navigation li {
+    margin: 5px 0;
+}
+
+nav.local-navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    flex-grow: 1;
+    margin: 20px;
+}
+
+aside.related-links {
+    background-color: #555;
+    color: #fff;
+    width: 200px;
+    margin-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 600px;
+    padding-left: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: auto;
+   
+}
+
+aside.related-links h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+aside.related-links ul {
+    list-style-type: none;
+}
+
+aside.related-links a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Responsive styles */
+@media (max-width: 800px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .search-bar {
+        margin: 40 0;
+        padding-bottom: 200px;
+    }
+}
+
+
+footer {
+    position: fixed;
+    margin-bottom: 3px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+
+
+
+.footer-content {
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    margin: 10px 0;
+}
+
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 3px;
+
+}
+
+.logo-container {
+    width: 100px;
+    height: auto;
+    border-radius: 80%;
+    overflow: auto;
+    margin-left: 20px;
+    margin-top: auto;
+}
+
+.logo {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #fff; 
+}
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    text-align: left;
+    margin-left: 10px;
+    
+}
+
+.navigation p {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 260px;
+    padding-top: auto;
+    margin-top: 3px;
+    margin-bottom:5px;
+    
+    
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333; /* Choose an appropriate color for the links */
+}
